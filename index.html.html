@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confluence — Terms, Privacy &amp; Refunds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:            #0F1719;
+    --bg-raise:      #16211F;
+    --surface:       #182422;
+    --line:          #263433;
+    --text:          #F1EDE4;
+    --text-muted:    #8FA19C;
+    --text-faint:    #5C6D69;
+    --gold:          #D4A853;
+    --teal:          #4FBDAA;
+    --coral:         #E2735A;
+    --radius-sm: 8px; --radius-md: 14px; --radius-lg: 22px;
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background:var(--gold); color:#161616; }
+  a{ color:var(--gold); }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 100px; }
+
+  nav{ display:flex; align-items:center; justify-content:space-between; padding:28px 0; border-bottom:1px solid var(--line); margin-bottom:8px; }
+  .brand{ display:flex; align-items:center; gap:11px; text-decoration:none; }
+  .brand-mark{ width:28px; height:28px; border-radius:7px; background:linear-gradient(160deg, var(--gold), var(--teal)); position:relative; flex-shrink:0; }
+  .brand-mark::after{ content:""; position:absolute; inset:7px; border-radius:4px; background:var(--bg-raise); }
+  .brand-name{ font-family:'Fraunces',serif; font-weight:600; font-size:17px; color:var(--text); }
+  .back-link{ font-size:13px; color:var(--text-muted); text-decoration:none; }
+
+  .page-head{ padding:44px 0 8px; }
+  .page-head h1{ font-family:'Fraunces',serif; font-weight:600; font-size:34px; margin:0 0 10px; letter-spacing:-0.01em; }
+  .page-head p{ color:var(--text-faint); font-size:13.5px; margin:0; }
+
+  .jumplinks{ display:flex; gap:10px; margin:26px 0 40px; flex-wrap:wrap; }
+  .jumplinks a{
+    background:var(--surface); border:1px solid var(--line); color:var(--text-muted);
+    padding:8px 16px; border-radius:999px; font-size:13px; font-weight:600; text-decoration:none;
+  }
+
+  .notice{
+    background:rgba(212,168,83,0.08); border:1px solid rgba(212,168,83,0.25);
+    border-radius:var(--radius-md); padding:18px 20px; margin-bottom:48px;
+    font-size:13.5px; color:var(--text-muted); line-height:1.7;
+  }
+  .notice strong{ color:var(--gold); }
+
+  section{ padding:44px 0; border-top:1px solid var(--line); }
+  section:first-of-type{ border-top:none; }
+  section h2{
+    font-family:'Fraunces',serif; font-weight:600; font-size:24px; margin:0 0 6px;
+  }
+  section .updated{ font-size:12px; color:var(--text-faint); margin:0 0 26px; }
+  section h3{ font-size:15px; font-weight:700; margin:28px 0 10px; color:var(--text); }
+  section p{ color:var(--text-muted); font-size:14.5px; line-height:1.75; margin:0 0 14px; }
+  section ul{ color:var(--text-muted); font-size:14.5px; line-height:1.8; margin:0 0 14px; padding-left:20px; }
+  section li{ margin-bottom:6px; }
+  .mono{ font-family:'IBM Plex Mono',monospace; font-size:13px; background:var(--surface); padding:2px 8px; border-radius:5px; color:var(--teal); }
+
+  footer{ text-align:center; padding:50px 0 20px; color:var(--text-faint); font-size:12.5px; border-top:1px solid var(--line); margin-top:20px; }
+
+  @media (max-width:600px){
+    .page-head h1{ font-size:27px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a href="https://confluence.llmzo.com" class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-name">Confluence</div>
+    </a>
+    <a href="https://confluence.llmzo.com" class="back-link">← Back to site</a>
+  </nav>
+
+  <div class="page-head">
+    <h1>Terms, Privacy &amp; Refunds</h1>
+    <p>Confluence is operated by Ibrahim Mousa, an individual based in Egypt. Last updated July 2026.</p>
+  </div>
+
+  <div class="jumplinks">
+    <a href="#terms">Terms of Service</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#refunds">Refund Policy</a>
+  </div>
+
+  <div class="notice">
+    <strong>Plain-language summary:</strong> Confluence is an early-stage (MVP) product built and operated by one person. Payments are handled entirely by Lemon Squeezy, who is the merchant of record for every purchase — meaning your transaction is legally with them, not with me directly. This page explains what that means, what data the app handles, and how refunds work.
+  </div>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <p class="updated">Effective July 2026</p>
+
+    <h3>1. What Confluence is</h3>
+    <p>Confluence is a web-based tool that helps freelancers and solopreneurs track income and expenses across multiple sources (such as Stripe, PayPal, Upwork, and Gumroad) and calculates net profit. It is provided by an individual operator, not a registered company, currently operating from Egypt.</p>
+
+    <h3>2. Who you're buying from</h3>
+    <p>When you subscribe to Confluence, your purchase is processed by <strong style="color:var(--text);">Lemon Squeezy.com Inc</strong>, who acts as our order processor and Merchant of Record. Lemon Squeezy is an authorized reseller of Confluence and handles the transaction, billing, and applicable sales tax on our behalf. Their <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener">Buyer Terms and Conditions</a> govern the purchase itself.</p>
+
+    <h3>3. Subscription &amp; billing</h3>
+    <ul>
+      <li>Confluence is billed at $10/month, with a 7-day free trial for new subscribers.</li>
+      <li>Your card is charged automatically when the trial ends, unless you cancel first.</li>
+      <li>Subscriptions renew monthly and can be cancelled at any time — access continues until the end of the paid period.</li>
+    </ul>
+
+    <h3>4. Service availability (MVP stage)</h3>
+    <p>Confluence is an early-stage product under active development. Features, pricing, and functionality may change. The service is provided "as is" without guarantees of uptime, and I make no warranty that it will be error-free or uninterrupted.</p>
+
+    <h3>5. Acceptable use</h3>
+    <p>You agree not to use Confluence for any unlawful purpose, to attempt to disrupt the service, or to misrepresent your identity when creating an account.</p>
+
+    <h3>6. Limitation of liability</h3>
+    <p>To the fullest extent permitted by law, Confluence and its operator are not liable for any indirect, incidental, or consequential damages arising from use of the service, including financial decisions made based on data shown in the app.</p>
+
+    <h3>7. Contact</h3>
+    <p>Questions about these terms: <a href="mailto:hemapyro11@gmail.com">hemapyro11@gmail.com</a></p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="updated">Effective July 2026</p>
+
+    <h3>1. What data I collect</h3>
+    <ul>
+      <li><strong style="color:var(--text);">Billing information</strong> — handled entirely by Lemon Squeezy (email, payment method). I never see or store your card details.</li>
+      <li><strong style="color:var(--text);">Your financial data (income/expense entries)</strong> — stored securely in Confluence's database (via Supabase), tied to your account. It's private to you: only your signed-in account can access it, enforced at the database level. It persists across sessions and devices — you'll see the same data whenever you sign back in with your email.</li>
+      <li><strong style="color:var(--text);">Account access</strong> — sign-in uses passwordless email links ("magic links"). I don't store or see a password. Your subscription status is checked against Lemon Squeezy's records to confirm access.</li>
+      <li><strong style="color:var(--text);">Email address</strong> — if you join the mailing list on the landing page, your email is stored via Formspree, a third-party form service, solely to send you occasional product updates. This is separate from your account email.</li>
+    </ul>
+
+    <h3>2. How your data is used</h3>
+    <p>Billing data is used only to process your subscription. Your income/expense entries are used only to show you your own dashboard — I don't access, analyze, or share individual account data. Mailing list emails are used only to send you updates about Confluence — never sold or shared with third parties for marketing.</p>
+
+    <h3>3. Third parties involved</h3>
+    <ul>
+      <li><strong style="color:var(--text);">Lemon Squeezy</strong> — payment processing and billing (Merchant of Record)</li>
+      <li><strong style="color:var(--text);">Supabase</strong> — database hosting and authentication for your account and financial data</li>
+      <li><strong style="color:var(--text);">Resend</strong> — delivers sign-in emails to your inbox</li>
+      <li><strong style="color:var(--text);">Cloudflare</strong> — network and security layer that routes traffic to this site</li>
+      <li><strong style="color:var(--text);">Formspree</strong> — email collection for the waitlist form</li>
+      <li><strong style="color:var(--text);">Netlify</strong> — website hosting</li>
+    </ul>
+
+    <h3>4. Your rights</h3>
+    <p>You can request deletion of your account and all associated data at any time by contacting me — this permanently removes your income/expense entries from the database. You can also request deletion of your email from the mailing list separately. Billing data deletion requests should go through Lemon Squeezy directly, as they control that data.</p>
+
+    <h3>5. Contact</h3>
+    <p>Privacy questions: <a href="mailto:hemapyro11@gmail.com">hemapyro11@gmail.com</a></p>
+  </section>
+
+  <section id="refunds">
+    <h2>Refund Policy</h2>
+    <p class="updated">Effective July 2026</p>
+
+    <h3>How refunds work</h3>
+    <p>Because Lemon Squeezy is the Merchant of Record for all Confluence purchases, <strong style="color:var(--text);">refunds are handled directly by Lemon Squeezy</strong>, following their standard refund process.</p>
+
+    <h3>To request a refund</h3>
+    <ul>
+      <li>Look up your order at <a href="https://app.lemonsqueezy.com/my-orders" target="_blank" rel="noopener">app.lemonsqueezy.com/my-orders</a> using the email you purchased with, or</li>
+      <li>Contact me directly at <a href="mailto:hemapyro11@gmail.com">hemapyro11@gmail.com</a> and I'll help coordinate the request with Lemon Squeezy.</li>
+    </ul>
+
+    <h3>Cancelling your trial or subscription</h3>
+    <p>You can cancel anytime before your trial ends to avoid being charged, or cancel an active subscription to stop future renewals — you'll keep access until the end of the period you already paid for.</p>
+  </section>
+
+  <footer>Confluence — © 2026 Ibrahim Mousa</footer>
+</div>
+</body>
+</html>
